@@ -47,6 +47,10 @@ namespace Calculadora
             }
         }
 
+        private void DoOperation() {
+            string[] members = operation.Split(' ');
+        }
+
         private bool IsOperation(string txt)
         {
             switch(txt)
