@@ -1,0 +1,10 @@
+C:\Users\jose luis\Desktop\Visual-Practicas\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\jose luis\Desktop\Visual-Practicas\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\jose luis\Desktop\Visual-Practicas\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\jose luis\Desktop\Visual-Practicas\Calculadora\Calculadora\obj\Debug\CalculadoraException.csprojAssemblyReference.cache
+C:\Users\jose luis\Desktop\Visual-Practicas\Calculadora\Calculadora\obj\Debug\Calculadora.Calculadora.resources
+C:\Users\jose luis\Desktop\Visual-Practicas\Calculadora\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+C:\Users\jose luis\Desktop\Visual-Practicas\Calculadora\Calculadora\obj\Debug\CalculadoraException.csproj.GenerateResource.cache
+C:\Users\jose luis\Desktop\Visual-Practicas\Calculadora\Calculadora\obj\Debug\CalculadoraException.csproj.CoreCompileInputs.cache
+C:\Users\jose luis\Desktop\Visual-Practicas\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\jose luis\Desktop\Visual-Practicas\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
