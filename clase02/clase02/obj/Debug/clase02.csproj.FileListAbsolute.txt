@@ -1,0 +1,8 @@
+C:\Users\Jose Luis\Desktop\Visual-Practicas\clase02\clase02\bin\Debug\clase02.dll
+C:\Users\Jose Luis\Desktop\Visual-Practicas\clase02\clase02\bin\Debug\clase02.pdb
+C:\Users\Jose Luis\Desktop\Visual-Practicas\clase02\clase02\obj\Debug\clase02.csprojAssemblyReference.cache
+C:\Users\Jose Luis\Desktop\Visual-Practicas\clase02\clase02\obj\Debug\clase02.UserControl1.resources
+C:\Users\Jose Luis\Desktop\Visual-Practicas\clase02\clase02\obj\Debug\clase02.csproj.GenerateResource.cache
+C:\Users\Jose Luis\Desktop\Visual-Practicas\clase02\clase02\obj\Debug\clase02.csproj.CoreCompileInputs.cache
+C:\Users\Jose Luis\Desktop\Visual-Practicas\clase02\clase02\obj\Debug\clase02.dll
+C:\Users\Jose Luis\Desktop\Visual-Practicas\clase02\clase02\obj\Debug\clase02.pdb
