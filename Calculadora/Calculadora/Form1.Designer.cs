@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Calculadora));
             this.texto_mensaje = new System.Windows.Forms.Label();
             this.b_num_1 = new System.Windows.Forms.Button();
             this.b_num_2 = new System.Windows.Forms.Button();
@@ -48,22 +49,29 @@
             this.b_div = new System.Windows.Forms.Button();
             this.b_ans = new System.Windows.Forms.Button();
             this.b_sign = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // texto_mensaje
             // 
             this.texto_mensaje.AutoSize = true;
-            this.texto_mensaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.texto_mensaje.Dock = System.Windows.Forms.DockStyle.Top;
+            this.texto_mensaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.texto_mensaje.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.texto_mensaje.Location = new System.Drawing.Point(24, 37);
+            this.texto_mensaje.Location = new System.Drawing.Point(0, 0);
             this.texto_mensaje.Name = "texto_mensaje";
-            this.texto_mensaje.Size = new System.Drawing.Size(24, 25);
+            this.texto_mensaje.Padding = new System.Windows.Forms.Padding(35, 35, 0, 0);
+            this.texto_mensaje.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.texto_mensaje.Size = new System.Drawing.Size(65, 66);
             this.texto_mensaje.TabIndex = 0;
             this.texto_mensaje.Text = "0";
             this.texto_mensaje.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // b_num_1
             // 
+            this.b_num_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_num_1.Location = new System.Drawing.Point(29, 280);
             this.b_num_1.Name = "b_num_1";
             this.b_num_1.Size = new System.Drawing.Size(53, 48);
@@ -74,6 +82,7 @@
             // 
             // b_num_2
             // 
+            this.b_num_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_num_2.Location = new System.Drawing.Point(104, 280);
             this.b_num_2.Name = "b_num_2";
             this.b_num_2.Size = new System.Drawing.Size(53, 48);
@@ -84,6 +93,7 @@
             // 
             // b_num_3
             // 
+            this.b_num_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_num_3.Location = new System.Drawing.Point(180, 280);
             this.b_num_3.Name = "b_num_3";
             this.b_num_3.Size = new System.Drawing.Size(53, 48);
@@ -94,6 +104,7 @@
             // 
             // b_num_4
             // 
+            this.b_num_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_num_4.Location = new System.Drawing.Point(29, 212);
             this.b_num_4.Name = "b_num_4";
             this.b_num_4.Size = new System.Drawing.Size(53, 48);
@@ -104,6 +115,7 @@
             // 
             // b_num_5
             // 
+            this.b_num_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_num_5.Location = new System.Drawing.Point(104, 212);
             this.b_num_5.Name = "b_num_5";
             this.b_num_5.Size = new System.Drawing.Size(53, 48);
@@ -114,6 +126,7 @@
             // 
             // b_num_6
             // 
+            this.b_num_6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_num_6.Location = new System.Drawing.Point(180, 212);
             this.b_num_6.Name = "b_num_6";
             this.b_num_6.Size = new System.Drawing.Size(53, 48);
@@ -124,6 +137,7 @@
             // 
             // b_num_7
             // 
+            this.b_num_7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_num_7.Location = new System.Drawing.Point(29, 147);
             this.b_num_7.Name = "b_num_7";
             this.b_num_7.Size = new System.Drawing.Size(53, 48);
@@ -134,6 +148,7 @@
             // 
             // b_num_8
             // 
+            this.b_num_8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_num_8.Location = new System.Drawing.Point(104, 147);
             this.b_num_8.Name = "b_num_8";
             this.b_num_8.Size = new System.Drawing.Size(53, 48);
@@ -144,6 +159,7 @@
             // 
             // b_num_9
             // 
+            this.b_num_9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_num_9.Location = new System.Drawing.Point(180, 147);
             this.b_num_9.Name = "b_num_9";
             this.b_num_9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -155,10 +171,11 @@
             // 
             // b_num_0
             // 
+            this.b_num_0.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_num_0.Location = new System.Drawing.Point(29, 343);
             this.b_num_0.Name = "b_num_0";
             this.b_num_0.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.b_num_0.Size = new System.Drawing.Size(128, 48);
+            this.b_num_0.Size = new System.Drawing.Size(53, 48);
             this.b_num_0.TabIndex = 10;
             this.b_num_0.Text = "0";
             this.b_num_0.UseVisualStyleBackColor = true;
@@ -166,7 +183,8 @@
             // 
             // b_punto
             // 
-            this.b_punto.Location = new System.Drawing.Point(180, 343);
+            this.b_punto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_punto.Location = new System.Drawing.Point(104, 343);
             this.b_punto.Name = "b_punto";
             this.b_punto.Size = new System.Drawing.Size(53, 48);
             this.b_punto.TabIndex = 11;
@@ -179,13 +197,13 @@
             this.texto_debug.AutoSize = true;
             this.texto_debug.Location = new System.Drawing.Point(362, 84);
             this.texto_debug.Name = "texto_debug";
-            this.texto_debug.Size = new System.Drawing.Size(35, 13);
+            this.texto_debug.Size = new System.Drawing.Size(0, 13);
             this.texto_debug.TabIndex = 12;
-            this.texto_debug.Text = "label1";
             // 
             // b_equal
             // 
-            this.b_equal.Location = new System.Drawing.Point(252, 343);
+            this.b_equal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_equal.Location = new System.Drawing.Point(180, 343);
             this.b_equal.Name = "b_equal";
             this.b_equal.Size = new System.Drawing.Size(52, 48);
             this.b_equal.TabIndex = 13;
@@ -195,7 +213,8 @@
             // 
             // b_plus
             // 
-            this.b_plus.Location = new System.Drawing.Point(252, 280);
+            this.b_plus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_plus.Location = new System.Drawing.Point(252, 343);
             this.b_plus.Name = "b_plus";
             this.b_plus.Size = new System.Drawing.Size(52, 48);
             this.b_plus.TabIndex = 14;
@@ -205,7 +224,8 @@
             // 
             // b_minus
             // 
-            this.b_minus.Location = new System.Drawing.Point(252, 212);
+            this.b_minus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_minus.Location = new System.Drawing.Point(252, 280);
             this.b_minus.Name = "b_minus";
             this.b_minus.Size = new System.Drawing.Size(52, 48);
             this.b_minus.TabIndex = 15;
@@ -215,7 +235,8 @@
             // 
             // b_times
             // 
-            this.b_times.Location = new System.Drawing.Point(252, 147);
+            this.b_times.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_times.Location = new System.Drawing.Point(252, 212);
             this.b_times.Name = "b_times";
             this.b_times.Size = new System.Drawing.Size(52, 48);
             this.b_times.TabIndex = 16;
@@ -225,7 +246,8 @@
             // 
             // b_div
             // 
-            this.b_div.Location = new System.Drawing.Point(252, 84);
+            this.b_div.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_div.Location = new System.Drawing.Point(252, 147);
             this.b_div.Name = "b_div";
             this.b_div.Size = new System.Drawing.Size(52, 48);
             this.b_div.TabIndex = 17;
@@ -235,31 +257,67 @@
             // 
             // b_ans
             // 
+            this.b_ans.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_ans.Location = new System.Drawing.Point(29, 84);
             this.b_ans.Name = "b_ans";
             this.b_ans.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.b_ans.Size = new System.Drawing.Size(128, 48);
+            this.b_ans.Size = new System.Drawing.Size(53, 48);
             this.b_ans.TabIndex = 18;
-            this.b_ans.Text = "Ans";
+            this.b_ans.Text = "ans";
             this.b_ans.UseVisualStyleBackColor = true;
             this.b_ans.Click += new System.EventHandler(this.HandleButton);
             // 
             // b_sign
             // 
+            this.b_sign.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_sign.Location = new System.Drawing.Point(180, 84);
             this.b_sign.Name = "b_sign";
             this.b_sign.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.b_sign.Size = new System.Drawing.Size(53, 48);
             this.b_sign.TabIndex = 19;
-            this.b_sign.Text = "+/-";
+            this.b_sign.Text = "-";
             this.b_sign.UseVisualStyleBackColor = true;
             this.b_sign.Click += new System.EventHandler(this.HandleButton);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label1.Location = new System.Drawing.Point(0, 66);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 13);
+            this.label1.TabIndex = 20;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(252, 84);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(52, 48);
+            this.button1.TabIndex = 21;
+            this.button1.Text = "^";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.HandleButton);
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(104, 84);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(53, 48);
+            this.button2.TabIndex = 22;
+            this.button2.Text = "!";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.HandleButton);
             // 
             // Calculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(550, 450);
+            this.ClientSize = new System.Drawing.Size(343, 450);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.b_sign);
             this.Controls.Add(this.b_ans);
             this.Controls.Add(this.b_div);
@@ -280,8 +338,10 @@
             this.Controls.Add(this.b_num_2);
             this.Controls.Add(this.b_num_1);
             this.Controls.Add(this.texto_mensaje);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Calculadora";
             this.Text = "Calculadora";
+            this.Load += new System.EventHandler(this.Calculadora_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -309,6 +369,9 @@
         private System.Windows.Forms.Button b_div;
         private System.Windows.Forms.Button b_ans;
         private System.Windows.Forms.Button b_sign;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

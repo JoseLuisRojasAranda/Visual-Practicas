@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Globalization;
 using System.Windows.Forms;
 
+
 namespace Calculadora
 {
     public partial class Calculadora : Form
@@ -85,32 +86,82 @@ namespace Calculadora
                 ErrorCalculadora();
                 return;
             }
-            membersList.RemoveAt(0);
+
+            if (membersList[membersList.Count - 1] != "!")
+                membersList.RemoveAt(0);
 
             if(membersList.Count > 0)
             {
-                if (membersList.Count % 2 != 0)
+                if (membersList[membersList.Count-1] != "!" && membersList.Count % 2 != 0)
                 {
                     ErrorCalculadora();
                     return;
                 }
 
-                for (int i = 0; i < membersList.Count; i+=2)
+                for (int i = 0; i < membersList.Count-1; i+=2)
                 {
                     float n;
+                    string op = " ";
                     try
                     {
                         n = loadNum(membersList[i + 1]);
                     } catch(CalculadoraException e)
                     {
-                        ErrorCalculadora();
-                        return;
+                        System.Console.WriteLine("Hola");
+                        System.Console.WriteLine(membersList[i]);
+                        if (membersList[i] == "!")
+                        {
+                           
+                            op = "!";
+                            //n = loadNum(membersList[i]);
+                            n = aux;
+                        }
+                        else
+                        {
+                            ErrorCalculadora();
+                            return;
+                        }
                     }
-                    
-                    switch (membersList[i])
+
+                    if(op == " ")
+                        op = membersList[i];
+
+                    switch (op)
                     {
                         case "+":
                             aux += n;
+                            break;
+
+                        case "--":
+                            aux -= n;
+                            break;
+
+                        case "X":
+                            aux *= n;
+                            break;
+
+                        case "/":
+                            aux /= n;
+                            break;
+
+                        case "^":
+                            aux = (float)Math.Pow((double)aux, (double)n);
+                            break;
+
+                        case "!":
+                            float aux2 = aux;
+                            if (aux2 == 0)
+                            {
+                                aux = 1;
+                            }
+                            else
+                            {
+                                for (int a = (int)aux2 - 1; a > 1; a--)
+                                    aux2 *= a;
+
+                                aux = aux2;
+                            }
+                            
                             break;
                     }
                 }
@@ -127,13 +178,19 @@ namespace Calculadora
                 case "+":
                     return true;
 
-                case "-":
+                case "--":
                     return true;
 
                 case "X":
                     return true;
 
                 case "/":
+                    return true;
+
+                case "^":
+                    return true;
+
+                case "!":
                     return true;
 
             }
@@ -145,6 +202,11 @@ namespace Calculadora
         {
             texto_mensaje.Text = "Error";
             ans = 0;
+        }
+
+        private void Calculadora_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
