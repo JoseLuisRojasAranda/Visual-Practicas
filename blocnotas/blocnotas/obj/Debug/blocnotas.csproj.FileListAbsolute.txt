@@ -1,0 +1,11 @@
+C:\Users\jose luis\Desktop\Visual-Practicas\blocnotas\blocnotas\bin\Debug\blocnotas.exe.config
+C:\Users\jose luis\Desktop\Visual-Practicas\blocnotas\blocnotas\bin\Debug\blocnotas.exe
+C:\Users\jose luis\Desktop\Visual-Practicas\blocnotas\blocnotas\bin\Debug\blocnotas.pdb
+C:\Users\jose luis\Desktop\Visual-Practicas\blocnotas\blocnotas\obj\Debug\blocnotas.csprojAssemblyReference.cache
+C:\Users\jose luis\Desktop\Visual-Practicas\blocnotas\blocnotas\obj\Debug\blocnotas.Form1.resources
+C:\Users\jose luis\Desktop\Visual-Practicas\blocnotas\blocnotas\obj\Debug\blocnotas.Properties.Resources.resources
+C:\Users\jose luis\Desktop\Visual-Practicas\blocnotas\blocnotas\obj\Debug\blocnotas.csproj.GenerateResource.cache
+C:\Users\jose luis\Desktop\Visual-Practicas\blocnotas\blocnotas\obj\Debug\blocnotas.csproj.CoreCompileInputs.cache
+C:\Users\jose luis\Desktop\Visual-Practicas\blocnotas\blocnotas\obj\Debug\blocnotas.exe
+C:\Users\jose luis\Desktop\Visual-Practicas\blocnotas\blocnotas\obj\Debug\blocnotas.pdb
+C:\Users\jose luis\Desktop\Visual-Practicas\blocnotas\blocnotas\obj\Debug\blocnotas.f_siguiente.resources
