@@ -1,0 +1,10 @@
+C:\Users\Jose Luis\Desktop\Visual-Practicas\clase06\clase06\bin\Debug\clase06.exe.config
+C:\Users\Jose Luis\Desktop\Visual-Practicas\clase06\clase06\bin\Debug\clase06.exe
+C:\Users\Jose Luis\Desktop\Visual-Practicas\clase06\clase06\bin\Debug\clase06.pdb
+C:\Users\Jose Luis\Desktop\Visual-Practicas\clase06\clase06\obj\Debug\clase06.csprojAssemblyReference.cache
+C:\Users\Jose Luis\Desktop\Visual-Practicas\clase06\clase06\obj\Debug\clase06.Form1.resources
+C:\Users\Jose Luis\Desktop\Visual-Practicas\clase06\clase06\obj\Debug\clase06.Properties.Resources.resources
+C:\Users\Jose Luis\Desktop\Visual-Practicas\clase06\clase06\obj\Debug\clase06.csproj.GenerateResource.cache
+C:\Users\Jose Luis\Desktop\Visual-Practicas\clase06\clase06\obj\Debug\clase06.csproj.CoreCompileInputs.cache
+C:\Users\Jose Luis\Desktop\Visual-Practicas\clase06\clase06\obj\Debug\clase06.exe
+C:\Users\Jose Luis\Desktop\Visual-Practicas\clase06\clase06\obj\Debug\clase06.pdb
