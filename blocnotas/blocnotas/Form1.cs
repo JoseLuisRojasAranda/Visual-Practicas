@@ -149,16 +149,49 @@ namespace blocnotas
 
         private void AbrirBuscar(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2(this);
+            f_siguiente form2 = new f_siguiente(this);
             form2.Show();
         }
 
-        public void Buscar(string txt)
+        public List<int> Buscar(string txt)
         {
-            int res = textBox.Find(txt);
-            string texto = textBox.Text;
-            textBox.SelectionStart = res;
-            System.Console.WriteLine(texto[res]);
+            int buscarRes = 0;
+            List<int> indices = new List<int>();
+
+            while (buscarRes != -1)
+            {
+                buscarRes = textBox.Find(txt, buscarRes, RichTextBoxFinds.MatchCase);
+
+                if (buscarRes != -1)
+                {
+                    indices.Add(buscarRes);
+                    //string texto = textBox.Text;
+                    //textBox.SelectionStart = buscarRes;
+                    //System.Console.WriteLine(buscarRes);
+                    buscarRes++;
+                }
+            }
+
+            return indices;
+        }
+
+        public void SelectSearchWorld(int i, string txt)
+        {
+            textBox.Find(txt, i, RichTextBoxFinds.MatchCase);
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult result;
+            if (editado == true)
+                result = MessageBox.Show("¿Deseas continuar sin guardar?",
+                    "Atencion", MessageBoxButtons.YesNo);
+            else
+                result = DialogResult.Yes;
+
+            if (result == DialogResult.No)
+                e.Cancel = true;
+            
         }
     }
 }

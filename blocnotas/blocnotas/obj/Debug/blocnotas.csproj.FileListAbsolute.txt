@@ -8,4 +8,4 @@ C:\Users\jose luis\Desktop\Visual-Practicas\blocnotas\blocnotas\obj\Debug\blocno
 C:\Users\jose luis\Desktop\Visual-Practicas\blocnotas\blocnotas\obj\Debug\blocnotas.csproj.CoreCompileInputs.cache
 C:\Users\jose luis\Desktop\Visual-Practicas\blocnotas\blocnotas\obj\Debug\blocnotas.exe
 C:\Users\jose luis\Desktop\Visual-Practicas\blocnotas\blocnotas\obj\Debug\blocnotas.pdb
-C:\Users\jose luis\Desktop\Visual-Practicas\blocnotas\blocnotas\obj\Debug\blocnotas.Form2.resources
+C:\Users\jose luis\Desktop\Visual-Practicas\blocnotas\blocnotas\obj\Debug\blocnotas.f_siguiente.resources
