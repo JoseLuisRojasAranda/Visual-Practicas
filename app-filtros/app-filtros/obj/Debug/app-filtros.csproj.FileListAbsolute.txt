@@ -1,0 +1,10 @@
+C:\Users\jose luis\Desktop\Visual-Practicas\app-filtros\app-filtros\bin\Debug\app-filtros.exe.config
+C:\Users\jose luis\Desktop\Visual-Practicas\app-filtros\app-filtros\bin\Debug\app-filtros.exe
+C:\Users\jose luis\Desktop\Visual-Practicas\app-filtros\app-filtros\bin\Debug\app-filtros.pdb
+C:\Users\jose luis\Desktop\Visual-Practicas\app-filtros\app-filtros\obj\Debug\app-filtros.csprojAssemblyReference.cache
+C:\Users\jose luis\Desktop\Visual-Practicas\app-filtros\app-filtros\obj\Debug\app_filtros.Form1.resources
+C:\Users\jose luis\Desktop\Visual-Practicas\app-filtros\app-filtros\obj\Debug\app_filtros.Properties.Resources.resources
+C:\Users\jose luis\Desktop\Visual-Practicas\app-filtros\app-filtros\obj\Debug\app-filtros.csproj.GenerateResource.cache
+C:\Users\jose luis\Desktop\Visual-Practicas\app-filtros\app-filtros\obj\Debug\app-filtros.csproj.CoreCompileInputs.cache
+C:\Users\jose luis\Desktop\Visual-Practicas\app-filtros\app-filtros\obj\Debug\app-filtros.exe
+C:\Users\jose luis\Desktop\Visual-Practicas\app-filtros\app-filtros\obj\Debug\app-filtros.pdb
