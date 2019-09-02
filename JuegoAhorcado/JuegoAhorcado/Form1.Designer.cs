@@ -77,13 +77,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(348, 450);
             this.Controls.Add(this.adivinar_button);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.palabra_label);
             this.Controls.Add(this.intentos_label);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Juego Ahorcado";
             this.ResumeLayout(false);
             this.PerformLayout();
 

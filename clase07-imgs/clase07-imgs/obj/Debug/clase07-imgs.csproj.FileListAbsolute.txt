@@ -1,0 +1,10 @@
+C:\Users\Jose Luis\Desktop\Visual-Practicas\clase07-imgs\clase07-imgs\obj\Debug\clase07-imgs.csprojAssemblyReference.cache
+C:\Users\Jose Luis\Desktop\Visual-Practicas\clase07-imgs\clase07-imgs\obj\Debug\clase07_imgs.Properties.Resources.resources
+C:\Users\Jose Luis\Desktop\Visual-Practicas\clase07-imgs\clase07-imgs\obj\Debug\clase07-imgs.csproj.GenerateResource.cache
+C:\Users\Jose Luis\Desktop\Visual-Practicas\clase07-imgs\clase07-imgs\obj\Debug\clase07-imgs.csproj.CoreCompileInputs.cache
+C:\Users\Jose Luis\Desktop\Visual-Practicas\clase07-imgs\clase07-imgs\bin\Debug\clase07-imgs.exe.config
+C:\Users\Jose Luis\Desktop\Visual-Practicas\clase07-imgs\clase07-imgs\bin\Debug\clase07-imgs.exe
+C:\Users\Jose Luis\Desktop\Visual-Practicas\clase07-imgs\clase07-imgs\bin\Debug\clase07-imgs.pdb
+C:\Users\Jose Luis\Desktop\Visual-Practicas\clase07-imgs\clase07-imgs\obj\Debug\clase07_imgs.Form1.resources
+C:\Users\Jose Luis\Desktop\Visual-Practicas\clase07-imgs\clase07-imgs\obj\Debug\clase07-imgs.exe
+C:\Users\Jose Luis\Desktop\Visual-Practicas\clase07-imgs\clase07-imgs\obj\Debug\clase07-imgs.pdb

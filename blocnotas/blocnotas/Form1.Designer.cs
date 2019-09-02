@@ -50,6 +50,7 @@
             this.textBox = new System.Windows.Forms.RichTextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.copiarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.seleccionarTodoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
@@ -124,7 +125,8 @@
             this.edicion_cortar,
             this.edicion_copiar,
             this.edicion_pegar,
-            this.edicion_buscar});
+            this.edicion_buscar,
+            this.seleccionarTodoToolStripMenuItem});
             this.edicionToolStripMenuItem.Name = "edicionToolStripMenuItem";
             this.edicionToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
             this.edicionToolStripMenuItem.Text = "Edicion";
@@ -133,7 +135,7 @@
             // 
             this.edicion_deshacer.Name = "edicion_deshacer";
             this.edicion_deshacer.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
-            this.edicion_deshacer.Size = new System.Drawing.Size(163, 22);
+            this.edicion_deshacer.Size = new System.Drawing.Size(205, 22);
             this.edicion_deshacer.Text = "Deshacer";
             this.edicion_deshacer.Click += new System.EventHandler(this.Deshacer);
             // 
@@ -141,7 +143,7 @@
             // 
             this.edicion_cortar.Name = "edicion_cortar";
             this.edicion_cortar.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
-            this.edicion_cortar.Size = new System.Drawing.Size(163, 22);
+            this.edicion_cortar.Size = new System.Drawing.Size(205, 22);
             this.edicion_cortar.Text = "Cortar";
             this.edicion_cortar.Click += new System.EventHandler(this.Cortar);
             // 
@@ -149,7 +151,7 @@
             // 
             this.edicion_copiar.Name = "edicion_copiar";
             this.edicion_copiar.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.edicion_copiar.Size = new System.Drawing.Size(163, 22);
+            this.edicion_copiar.Size = new System.Drawing.Size(205, 22);
             this.edicion_copiar.Text = "Copiar";
             this.edicion_copiar.Click += new System.EventHandler(this.Copiar);
             // 
@@ -157,7 +159,7 @@
             // 
             this.edicion_pegar.Name = "edicion_pegar";
             this.edicion_pegar.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
-            this.edicion_pegar.Size = new System.Drawing.Size(163, 22);
+            this.edicion_pegar.Size = new System.Drawing.Size(205, 22);
             this.edicion_pegar.Text = "Pegar";
             this.edicion_pegar.Click += new System.EventHandler(this.Pegar);
             // 
@@ -165,7 +167,7 @@
             // 
             this.edicion_buscar.Name = "edicion_buscar";
             this.edicion_buscar.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F)));
-            this.edicion_buscar.Size = new System.Drawing.Size(163, 22);
+            this.edicion_buscar.Size = new System.Drawing.Size(205, 22);
             this.edicion_buscar.Text = "Buscar";
             this.edicion_buscar.Click += new System.EventHandler(this.AbrirBuscar);
             // 
@@ -206,6 +208,7 @@
             this.textBox.ContextMenuStrip = this.contextMenuStrip1;
             this.textBox.Cursor = System.Windows.Forms.Cursors.SizeWE;
             this.textBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox.Location = new System.Drawing.Point(0, 49);
             this.textBox.Margin = new System.Windows.Forms.Padding(20, 3, 3, 3);
             this.textBox.Name = "textBox";
@@ -225,6 +228,14 @@
             this.copiarToolStripMenuItem1.Name = "copiarToolStripMenuItem1";
             this.copiarToolStripMenuItem1.Size = new System.Drawing.Size(109, 22);
             this.copiarToolStripMenuItem1.Text = "Copiar";
+            // 
+            // seleccionarTodoToolStripMenuItem
+            // 
+            this.seleccionarTodoToolStripMenuItem.Name = "seleccionarTodoToolStripMenuItem";
+            this.seleccionarTodoToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D)));
+            this.seleccionarTodoToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
+            this.seleccionarTodoToolStripMenuItem.Text = "Seleccionar Todo";
+            this.seleccionarTodoToolStripMenuItem.Click += new System.EventHandler(this.SeleccionarTodoToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -270,6 +281,7 @@
         private System.Windows.Forms.RichTextBox textBox;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem copiarToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem seleccionarTodoToolStripMenuItem;
     }
 }
 

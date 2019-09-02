@@ -15,6 +15,7 @@ namespace JuegoAhorcado
         private string palabra;
         private List<char> letrasAdivinadas;
         private int intentos;
+        private string[] palabras = { "PROGRAMACION", "ADIOS", "MANZANA", "VISUAL"};
         public Form1()
         {
             InitializeComponent();
@@ -24,7 +25,11 @@ namespace JuegoAhorcado
 
         private void IniciarJuego()
         {
-            palabra = "VISUALI";
+            Random rnd = new Random();
+            int p = rnd.Next(0, palabras.Length);
+
+            //palabra = "VISUALI";
+            palabra = palabras[p];
             letrasAdivinadas = new List<char>();
             GeneraPalabraVista();
             intentos = 3;

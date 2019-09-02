@@ -193,5 +193,10 @@ namespace blocnotas
                 e.Cancel = true;
             
         }
+
+        private void SeleccionarTodoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            textBox.SelectAll();
+        }
     }
 }
