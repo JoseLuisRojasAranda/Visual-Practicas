@@ -1,0 +1,10 @@
+C:\Users\Jose Luis\Desktop\Visual-Practicas\sprite-animacion\sprite-animacion\bin\Debug\sprite-animacion.exe.config
+C:\Users\Jose Luis\Desktop\Visual-Practicas\sprite-animacion\sprite-animacion\bin\Debug\sprite-animacion.exe
+C:\Users\Jose Luis\Desktop\Visual-Practicas\sprite-animacion\sprite-animacion\bin\Debug\sprite-animacion.pdb
+C:\Users\Jose Luis\Desktop\Visual-Practicas\sprite-animacion\sprite-animacion\obj\Debug\sprite-animacion.csprojAssemblyReference.cache
+C:\Users\Jose Luis\Desktop\Visual-Practicas\sprite-animacion\sprite-animacion\obj\Debug\sprite_animacion.Form1.resources
+C:\Users\Jose Luis\Desktop\Visual-Practicas\sprite-animacion\sprite-animacion\obj\Debug\sprite_animacion.Properties.Resources.resources
+C:\Users\Jose Luis\Desktop\Visual-Practicas\sprite-animacion\sprite-animacion\obj\Debug\sprite-animacion.csproj.GenerateResource.cache
+C:\Users\Jose Luis\Desktop\Visual-Practicas\sprite-animacion\sprite-animacion\obj\Debug\sprite-animacion.csproj.CoreCompileInputs.cache
+C:\Users\Jose Luis\Desktop\Visual-Practicas\sprite-animacion\sprite-animacion\obj\Debug\sprite-animacion.exe
+C:\Users\Jose Luis\Desktop\Visual-Practicas\sprite-animacion\sprite-animacion\obj\Debug\sprite-animacion.pdb
