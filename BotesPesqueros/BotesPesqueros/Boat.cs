@@ -75,7 +75,7 @@ namespace BotesPesqueros
             long dt;
             while (true)
             {
-                /*
+                //*
                 if(waitingSpace == true)
                 {
                     dock.RequestFishing(this);
@@ -107,7 +107,7 @@ namespace BotesPesqueros
                 {
                     break;
                 }
-                */
+                //*/
             }
         }
     }
