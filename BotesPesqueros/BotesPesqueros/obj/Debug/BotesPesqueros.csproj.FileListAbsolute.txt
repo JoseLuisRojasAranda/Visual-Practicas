@@ -1,0 +1,10 @@
+C:\Users\jose luis\Desktop\Visual-Practicas\BotesPesqueros\BotesPesqueros\bin\Debug\BotesPesqueros.exe.config
+C:\Users\jose luis\Desktop\Visual-Practicas\BotesPesqueros\BotesPesqueros\bin\Debug\BotesPesqueros.exe
+C:\Users\jose luis\Desktop\Visual-Practicas\BotesPesqueros\BotesPesqueros\bin\Debug\BotesPesqueros.pdb
+C:\Users\jose luis\Desktop\Visual-Practicas\BotesPesqueros\BotesPesqueros\obj\Debug\BotesPesqueros.csprojAssemblyReference.cache
+C:\Users\jose luis\Desktop\Visual-Practicas\BotesPesqueros\BotesPesqueros\obj\Debug\BotesPesqueros.Form1.resources
+C:\Users\jose luis\Desktop\Visual-Practicas\BotesPesqueros\BotesPesqueros\obj\Debug\BotesPesqueros.Properties.Resources.resources
+C:\Users\jose luis\Desktop\Visual-Practicas\BotesPesqueros\BotesPesqueros\obj\Debug\BotesPesqueros.csproj.GenerateResource.cache
+C:\Users\jose luis\Desktop\Visual-Practicas\BotesPesqueros\BotesPesqueros\obj\Debug\BotesPesqueros.csproj.CoreCompileInputs.cache
+C:\Users\jose luis\Desktop\Visual-Practicas\BotesPesqueros\BotesPesqueros\obj\Debug\BotesPesqueros.exe
+C:\Users\jose luis\Desktop\Visual-Practicas\BotesPesqueros\BotesPesqueros\obj\Debug\BotesPesqueros.pdb
