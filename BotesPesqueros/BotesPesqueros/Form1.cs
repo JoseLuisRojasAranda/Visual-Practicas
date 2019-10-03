@@ -12,7 +12,7 @@ namespace BotesPesqueros
 {
     public partial class Form1 : Form
     {
-        private int numBoats = 5;
+        private int numBoats = 8;
         private Boat[] boats;
         private Dock dock;
         Timer t;
@@ -26,6 +26,8 @@ namespace BotesPesqueros
             {
                 boats[i] = new Boat(this, dock);
             }
+
+            dock.Start();
 
             t = new Timer();
             t.Interval = 33;
@@ -52,6 +54,7 @@ namespace BotesPesqueros
             {
                 boats[i].running = false;
             }
+            dock.running = false;
         }
     }
 }

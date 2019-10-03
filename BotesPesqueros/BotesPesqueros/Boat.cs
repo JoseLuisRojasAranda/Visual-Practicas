@@ -19,7 +19,7 @@ namespace BotesPesqueros
         private float my;               // position to move in the y axis
         private int xDir;               // The direction of the movement in the x axis
         private int yDir;               // The direction of the movement in the y axis
-        private float velocity = .05f;  // Velocity of the boat
+        private float velocity = .03f;  // Velocity of the boat
 
         public Image image;             // Reference to image boat
 
@@ -27,8 +27,12 @@ namespace BotesPesqueros
         private Dock dock;              // Reference to the dock controlling the boats
 
         // Propiertes for the state of the boat
+        public Boolean moving;
         public Boolean waitingSpace;
         public Boolean fishing;
+        public Boolean startFishing;
+
+        private int fishingTime;
 
         public Thread thread;           // Thread with the boat lopp
         public Boolean running = true;  // If the thread is running
@@ -41,11 +45,12 @@ namespace BotesPesqueros
 
             waitingSpace = true;
             fishing = false;
+            startFishing = false;
+            moving = false;
 
-            x = 100.0f;
-            y = 100.0f;
-
-            MoveTowards(600, 300);
+            int[] position = dock.AssignPosition(this);
+            this.x = position[0];
+            this.y = position[1];
 
             // Reads image file
             image = Image.FromFile(@"C:\Users\jose luis\Desktop\Visual-Practicas\resources\bote.png");
@@ -64,43 +69,62 @@ namespace BotesPesqueros
             mx = (float)x;
             my = (float)y;
 
-            xDir = mx > x ? -1 : 1;
-            yDir = my > y ? -1 : 1;
+            xDir = (mx > this.x) ? 1 : -1;
+            yDir = (my > this.y) ? 1 : -1;
+
+            moving = true;
+
+            swMv.Restart();
         }
 
         private void BoatUpdate()
         {
+            var rand = new Random();
             //sw.Start();
             swMv.Start();
             long dt;
             while (true)
             {
-                //*
-                if(waitingSpace == true)
-                {
-                    dock.RequestFishing(this);
-                }
-
                 // Movement
                 if ((dt = swMv.ElapsedMilliseconds) > 50)
                 {
-
-                    if ((xDir == 1 && mx - x <= 0) || (xDir == -1 && x - mx <= 0))
-                        x = mx;
-                    else  
-                        x += xDir * (dt / (velocity * 1000.0f));
-
-                    if ((yDir == 1 && my - y <= 0) || (yDir == -1 && y - my <= 0))
-                        y = my;
-                    else
-                        y += yDir * (dt / (velocity * 1000.0f));
-
-                    if (x != mx || y != my)
+                    if (moving)
                     {
-                        //form.Invalidate();
+                        if ((xDir == 1 && mx - x <= 0) || (xDir == -1 && x - mx <= 0))
+                            x = mx;
+                        else
+                            x += xDir * (dt / (velocity * 1000.0f));
+
+                        if ((yDir == 1 && my - y <= 0) || (yDir == -1 && y - my <= 0))
+                            y = my;
+                        else
+                            y += yDir * (dt / (velocity * 1000.0f));
+
+                        if (x != mx || y != my)
+                        {
+                            //form.Invalidate();
+                        }
+                        if(x == mx && y == my)
+                        {
+                            moving = false;
+                            if(fishing && !startFishing)
+                            {
+                                startFishing = true;
+                                sw.Restart();
+                                fishingTime = rand.Next(5000, 15000);
+                            }
+                        }
                     }
 
                     swMv.Restart();
+                }
+
+                if(startFishing && sw.ElapsedMilliseconds > fishingTime)
+                {
+                    fishing = false;
+                    startFishing = false;
+                    dock.RequestFishing(this);
+                    dock.BoatFinishFishing();
                 }
 
                 if(running == false)
@@ -108,6 +132,8 @@ namespace BotesPesqueros
                     break;
                 }
                 //*/
+
+                Thread.Sleep(10);
             }
         }
     }
