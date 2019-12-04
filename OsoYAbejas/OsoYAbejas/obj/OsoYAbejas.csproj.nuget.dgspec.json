@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/claudiaaranda/Desktop/Trabajos/GitHub/UASLP-repo/Semestre-2019-2020-I/Visual/OsoYAbejas/OsoYAbejas/OsoYAbejas.csproj": {}
+  },
+  "projects": {
+    "/Users/claudiaaranda/Desktop/Trabajos/GitHub/UASLP-repo/Semestre-2019-2020-I/Visual/OsoYAbejas/OsoYAbejas/OsoYAbejas.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/claudiaaranda/Desktop/Trabajos/GitHub/UASLP-repo/Semestre-2019-2020-I/Visual/OsoYAbejas/OsoYAbejas/OsoYAbejas.csproj",
+        "projectName": "OsoYAbejas",
+        "projectPath": "/Users/claudiaaranda/Desktop/Trabajos/GitHub/UASLP-repo/Semestre-2019-2020-I/Visual/OsoYAbejas/OsoYAbejas/OsoYAbejas.csproj",
+        "packagesPath": "/Users/claudiaaranda/.nuget/packages/",
+        "outputPath": "/Users/claudiaaranda/Desktop/Trabajos/GitHub/UASLP-repo/Semestre-2019-2020-I/Visual/OsoYAbejas/OsoYAbejas/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/claudiaaranda/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

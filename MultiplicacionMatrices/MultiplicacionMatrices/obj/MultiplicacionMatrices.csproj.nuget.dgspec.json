@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jlreds/Desktop/Parnino/UASLP/Semestre-2019-2020-I/Visual/MultiplicacionMatrices/MultiplicacionMatrices/MultiplicacionMatrices.csproj": {}
+  },
+  "projects": {
+    "/Users/jlreds/Desktop/Parnino/UASLP/Semestre-2019-2020-I/Visual/MultiplicacionMatrices/MultiplicacionMatrices/MultiplicacionMatrices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jlreds/Desktop/Parnino/UASLP/Semestre-2019-2020-I/Visual/MultiplicacionMatrices/MultiplicacionMatrices/MultiplicacionMatrices.csproj",
+        "projectName": "MultiplicacionMatrices",
+        "projectPath": "/Users/jlreds/Desktop/Parnino/UASLP/Semestre-2019-2020-I/Visual/MultiplicacionMatrices/MultiplicacionMatrices/MultiplicacionMatrices.csproj",
+        "packagesPath": "/Users/jlreds/.nuget/packages/",
+        "outputPath": "/Users/jlreds/Desktop/Parnino/UASLP/Semestre-2019-2020-I/Visual/MultiplicacionMatrices/MultiplicacionMatrices/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/jlreds/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

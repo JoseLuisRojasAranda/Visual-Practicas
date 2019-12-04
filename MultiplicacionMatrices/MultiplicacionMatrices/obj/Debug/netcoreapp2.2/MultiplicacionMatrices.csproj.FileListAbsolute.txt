@@ -1,0 +1,11 @@
+/Users/claudiaaranda/Desktop/Trabajos/GitHub/UASLP-repo/Semestre-2019-2020-I/Visual/MultiplicacionMatrices/MultiplicacionMatrices/bin/Debug/netcoreapp2.2/MultiplicacionMatrices.deps.json
+/Users/claudiaaranda/Desktop/Trabajos/GitHub/UASLP-repo/Semestre-2019-2020-I/Visual/MultiplicacionMatrices/MultiplicacionMatrices/bin/Debug/netcoreapp2.2/MultiplicacionMatrices.runtimeconfig.json
+/Users/claudiaaranda/Desktop/Trabajos/GitHub/UASLP-repo/Semestre-2019-2020-I/Visual/MultiplicacionMatrices/MultiplicacionMatrices/bin/Debug/netcoreapp2.2/MultiplicacionMatrices.runtimeconfig.dev.json
+/Users/claudiaaranda/Desktop/Trabajos/GitHub/UASLP-repo/Semestre-2019-2020-I/Visual/MultiplicacionMatrices/MultiplicacionMatrices/bin/Debug/netcoreapp2.2/MultiplicacionMatrices.dll
+/Users/claudiaaranda/Desktop/Trabajos/GitHub/UASLP-repo/Semestre-2019-2020-I/Visual/MultiplicacionMatrices/MultiplicacionMatrices/bin/Debug/netcoreapp2.2/MultiplicacionMatrices.pdb
+/Users/claudiaaranda/Desktop/Trabajos/GitHub/UASLP-repo/Semestre-2019-2020-I/Visual/MultiplicacionMatrices/MultiplicacionMatrices/obj/Debug/netcoreapp2.2/MultiplicacionMatrices.csprojAssemblyReference.cache
+/Users/claudiaaranda/Desktop/Trabajos/GitHub/UASLP-repo/Semestre-2019-2020-I/Visual/MultiplicacionMatrices/MultiplicacionMatrices/obj/Debug/netcoreapp2.2/MultiplicacionMatrices.csproj.CoreCompileInputs.cache
+/Users/claudiaaranda/Desktop/Trabajos/GitHub/UASLP-repo/Semestre-2019-2020-I/Visual/MultiplicacionMatrices/MultiplicacionMatrices/obj/Debug/netcoreapp2.2/MultiplicacionMatrices.AssemblyInfoInputs.cache
+/Users/claudiaaranda/Desktop/Trabajos/GitHub/UASLP-repo/Semestre-2019-2020-I/Visual/MultiplicacionMatrices/MultiplicacionMatrices/obj/Debug/netcoreapp2.2/MultiplicacionMatrices.AssemblyInfo.cs
+/Users/claudiaaranda/Desktop/Trabajos/GitHub/UASLP-repo/Semestre-2019-2020-I/Visual/MultiplicacionMatrices/MultiplicacionMatrices/obj/Debug/netcoreapp2.2/MultiplicacionMatrices.dll
+/Users/claudiaaranda/Desktop/Trabajos/GitHub/UASLP-repo/Semestre-2019-2020-I/Visual/MultiplicacionMatrices/MultiplicacionMatrices/obj/Debug/netcoreapp2.2/MultiplicacionMatrices.pdb
